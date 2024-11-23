@@ -1,0 +1,50 @@
+/* userSubmissions.css */
+.user-submissions-page {
+    margin-left: 250px; /* Adjust the value to match the width of your sidebar */
+    padding: 20px;
+  }
+  
+  .submissions-list {
+    margin-top: 20px;
+  }
+  
+  .submissions-list h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .submissions-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .submissions-list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submissions-list li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .submissions-list li div {
+    margin-bottom: 5px;
+  }
+  
+  .submissions-list li strong {
+    font-weight: bold;
+  }
+  
+  .submissions-list li .seen {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .seen {
+    color: green;
+    font-weight: bold;
+  }

@@ -1,0 +1,14 @@
+.imgco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 25px;
+}
+.cm{
+    text-align: center;
+    background-color: rgb(95, 210, 248);
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

@@ -1,0 +1,19 @@
+.a{
+    background-color: blue;
+}
+
+/* App.css */
+.container {
+    background: rgb(250, 237, 237);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cadre {
+    background: white;
+    padding: 15px;
+    margin: 200px;
+  }
+  .p{
+    font-size: 30px;
+  }

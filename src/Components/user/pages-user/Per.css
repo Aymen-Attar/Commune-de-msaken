@@ -1,0 +1,50 @@
+/* user-permit-search.css */
+.user-permit-search {
+  margin: 20px auto; /* Center the component horizontally */
+  max-width: 400px; /* Limit the width for better readability */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user-permit-search h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.permit-details {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.permit-details p {
+  margin: 5px 0;
+}

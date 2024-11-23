@@ -1,0 +1,129 @@
+/* admin-pdf-page.css */
+
+.admin-pdf-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-pdf-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pdf-list {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pdf-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pdf-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pdf-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pdf-list span {
+  flex-grow: 1;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.pdf-link {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #0056b3;
+}
+
+.pdf-list button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pdf-list button:hover {
+  background-color: darkred;
+}
+
+.add-pdf {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-pdf input[type="text"] {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.add-pdf .file-input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-pdf input[type="file"] {
+  display: none;
+}
+
+.add-pdf .file-input-label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-pdf .selected-file {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-pdf .upload-progress {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-pdf button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

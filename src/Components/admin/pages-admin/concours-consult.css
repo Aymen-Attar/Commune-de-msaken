@@ -1,0 +1,79 @@
+/* AdminResultatConcoursInsert.css */
+
+/* Container for the entire page content */
+.admin-resultat-concours-insert {
+  margin-left: 250px; /* Adjust this margin to match your sidebar width */
+  padding: 20px;
+}
+
+/* Page title */
+.admin-resultat-concours-insert h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Adjust text color */
+}
+
+/* Form container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.form-group label {
+  font-weight: bold;
+  color: #333; /* Adjust label text color */
+}
+
+/* Input styles */
+.form-group input[type="text"],
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333; /* Adjust input text color */
+}
+
+/* Submit button */
+.form-group button {
+  background-color: #007bff; /* Adjust button background color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* User-friendly alert styles */
+.alert {
+  font-weight: bold;
+  color: green;
+}
+
+/* Error message styles */
+.error-message {
+  font-weight: bold;
+  color: red;
+}
+
+/* Delete button styles */
+.delete-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: red; /* Set the button background color to red */
+  color: #fff; /* Set the button text color to white */
+  border: none;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: darkred; /* Set the button background color on hover */
+}

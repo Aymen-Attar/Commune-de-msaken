@@ -1,0 +1,65 @@
+/* admin-dashboard.css */
+
+/* Center the AdminDashboard */
+.admin-dashboard {
+  display: flex;
+  flex-direction: column; /* Change the direction to stack elements vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This will make it take up the full height of the viewport */
+  padding: 20px;
+  margin-left: 20px; /* Adjust this margin to match the sidebar width */
+ 
+}
+
+/* Style the title */
+.admin-dashboard-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the table */
+.user-profiles-table {
+  width: calc(100% - 250px); /* Subtract the sidebar width from 100% */
+  margin-left: 250px; /* Same margin as the sidebar width */
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+/* Style the table headers and rows as needed */
+.user-profiles-table th, .user-profiles-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-profiles-table th {
+  background-color: #f2f2f2;
+}
+
+.user-profiles-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-profiles-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Style input and buttons as needed */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+}
+
+/* Style the specific buttons in this page */
+.admin-dashboard-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #007bff; /* Set the button background color to blue */
+  color: #fff; /* Set the button text color to white */
+}
+
+.admin-dashboard-button:hover {
+  background-color: #0056b3; /* Set the button background color on hover */
+}

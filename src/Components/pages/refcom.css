@@ -1,0 +1,36 @@
+.a{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.b{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    
+}
+.img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.c{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.d{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+.img11{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

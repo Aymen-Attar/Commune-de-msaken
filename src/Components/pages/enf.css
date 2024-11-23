@@ -1,0 +1,19 @@
+.x{
+    text-align: center;
+    background-color: rgb(95, 210, 248);
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tab-enf{
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-enf{
+    color: rgb(132, 132, 254);
+    background-color: aliceblue;
+}
+.c-enf{
+color: rgb(115, 115, 193);
+}

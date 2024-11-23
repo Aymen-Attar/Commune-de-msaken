@@ -1,0 +1,28 @@
+/* UserProfileDisplay.css */
+
+.user-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 80%; /* Adjust as needed */
+  }
+  
+  .profile-details p {
+    margin: 10px 0;
+  }
+  

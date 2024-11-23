@@ -1,0 +1,35 @@
+/* concours.css */
+
+.concours-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.concours-list {
+  margin-top: 20px;
+}
+
+.concours-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pdf-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pdf-link:hover {
+  background-color: #0056b3;
+}

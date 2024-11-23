@@ -1,0 +1,59 @@
+/* reclamationsa.css */
+
+.admin-submissions-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.submissions-list {
+  margin-bottom: 20px;
+}
+
+.submissions-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.submissions-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.submissions-list .submission-container {
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submissions-list .submission-container h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.submissions-list .submission-container div {
+  margin-bottom: 5px;
+}
+
+.submissions-list .submission-container strong {
+  font-weight: bold;
+}
+
+.submissions-list li:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.submissions-list p {
+  margin-top: 0;
+}
+
+.submission-item {
+  text-align: center; /* Add this to center the form items */
+}

@@ -1,0 +1,23 @@
+.user-forms-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-item {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form-item p {
+    margin: 5px 0;
+  }
+  
+  .form-photo {
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: 10px;
+  }
+  

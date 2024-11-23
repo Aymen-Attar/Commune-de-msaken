@@ -1,0 +1,39 @@
+.admin-signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .admin-signup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-signup-form label {
+    margin-bottom: 5px;
+  }
+  
+  .admin-signup-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-signup-form button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

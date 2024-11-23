@@ -1,0 +1,96 @@
+/* admin-events.css */
+
+.admin-events-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-events-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-events-form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.admin-events-form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.admin-events-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.admin-events-btn-primary {
+  background-color: #007bff;
+}
+
+.admin-events-btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.admin-events-list {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.admin-events-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-events-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+}
+
+.admin-events-btn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-events-btn:hover {
+  background-color: darkred;
+}

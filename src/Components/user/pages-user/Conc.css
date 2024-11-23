@@ -1,0 +1,63 @@
+/* UserResultatConcoursSearch.css */
+
+/* Container for the entire page content */
+.user-resultat-concours-search {
+  margin-left: 250px; /* Adjust this margin to match your sidebar width */
+  padding: 20px;
+}
+
+/* Page title */
+.user-resultat-concours-search h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.form-group label {
+  font-weight: bold;
+}
+
+/* Input styles */
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+}
+
+/* Submit button */
+.form-group button {
+  background-color: #007bff; /* Adjust button styles as needed */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Error message styles */
+.error-message {
+  font-weight: bold;
+  color: red;
+}
+
+/* Resultat Concours details styles */
+.resultat-concours-details {
+  margin-top: 20px;
+}
+
+/* Styles for individual details */
+.resultat-concours-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styles for each detail item */
+.resultat-concours-details p {
+  margin-bottom: 5px;
+}
+
+/* Add additional styles as needed */

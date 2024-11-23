@@ -1,0 +1,35 @@
+/* Style for the container holding the dropdown and login button */
+.login-container {
+  display: flex;
+  flex-direction: row; /* Change to row to align elements horizontally */
+  justify-content: flex-end; /* Align elements to the right */
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style for the dropdown select element */
+.login-dropdown {
+  padding: 8px; /* Adjust padding for smaller size */
+  font-size: 14px; /* Adjust font size for smaller size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 120px; /* Set the width to control the dropdown's size */
+}
+
+/* Style for the login button */
+.login-button {
+  margin-left: 10px; /* Add margin to separate dropdown and button */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for the login button */
+.login-button:hover {
+  background-color: #0056b3;
+}

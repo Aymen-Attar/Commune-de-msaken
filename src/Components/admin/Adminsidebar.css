@@ -1,0 +1,68 @@
+.admin-sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(47, 48, 49); /* Change the background color to cyan */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align menu items to the top */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+}
+
+.admin-sidebar__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar__menu li {
+  margin-bottom: 10px;
+}
+
+.admin-sidebar__link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block; /* Display links as block elements */
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  background-color: #fff; /* Set the menu item background color */
+  color: #333; /* Set the menu item text color */
+}
+
+.admin-sidebar__link:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.admin-sidebar__disconnect {
+  text-align: center;
+  background-color: red; /* Make the button red */
+  padding: 8px 0; /* Add padding to the button */
+}
+
+.admin-sidebar__disconnect button {
+  border: none;
+  background: none;
+  color: white; /* Change button text color to white */
+  font-weight: bold; /* Make the text bold */
+  cursor: pointer;
+}
+
+.admin-sidebar__disconnect button:hover {
+  background-color: darkred; /* Change button color on hover */
+}
+.admin-sidebar__logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-sidebar__logo img {
+  max-width: 100%;
+  height: 100px;
+}

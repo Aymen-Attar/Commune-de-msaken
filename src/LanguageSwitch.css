@@ -1,0 +1,16 @@
+.language-switch {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .language-button {
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
