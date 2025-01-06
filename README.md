@@ -25,6 +25,8 @@ npm start
 This will start the development server and open the app in your browser.
 
 ## Example
+Here is a demonstration of how the site works:
+
 
 ## Contributing
 Feel free to fork this repository and submit issues or pull requests to contribute.
