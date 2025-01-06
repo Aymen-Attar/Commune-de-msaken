@@ -26,7 +26,7 @@ This will start the development server and open the app in your browser.
 
 ## Example
 Here is a demonstration of how the site works:
-
+[Watch the Example Video](./047.mp4)
 
 ## Contributing
 Feel free to fork this repository and submit issues or pull requests to contribute.
